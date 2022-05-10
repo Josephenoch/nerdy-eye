@@ -8,7 +8,8 @@ module.exports = {
         montserrat:"Montserrat, sans-serif"
       },
       colors:{
-        theme:"#D23432"
+        theme:"#D23432",
+        textTheme:"#3C3A3A"
       }
     },
   },
