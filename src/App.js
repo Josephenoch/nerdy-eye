@@ -1,11 +1,12 @@
+import { Hero } from "./Components/Hero";
 import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App font-montserrat h-screen">
+    <div className="w-[screen] font-montserrat h-screen">
       <Navbar/>
-      <div className="h-screen w-full bg-white z-10 relative">
-
+      <div className="w-full z-10 relative h-[80%]">
+        <Hero/>
       </div>
     </div>
   );
