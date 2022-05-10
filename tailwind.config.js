@@ -3,7 +3,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        montserrat:"Montserrat, sans-serif"
+      },
+      colors:{
+        theme:"#D23432"
+      }
+    },
   },
   plugins: [],
 }
