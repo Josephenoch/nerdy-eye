@@ -16,7 +16,7 @@ function App() {
       <div className="w-full z-10 relative lg:h-[100%] mb-10 lg:mb-0">
         <Hero/>
       </div>
-      <div className="w-full flex flex-col items-center justify-evenly h-[60%] bg-[#f5f5f5]">
+      <div className="w-full flex flex-col items-center justify-evenly lg:h-[60%] pb-16 lg:pb-0 bg-[#f5f5f5]">
         <HowItWorks/>
       </div>
       <div className="flex items-center flex-col">
