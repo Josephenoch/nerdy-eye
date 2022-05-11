@@ -8,7 +8,7 @@ export const HowItWorks = () => {
         <h1 className="text-2xl font-bold">How it Works</h1>
         <div className='w-full flex justify-center'>
             {
-                items.map((item,index, arr)=><HowItWorksItem key={index} number={item} index={index} arrLength={arr.length}/>)
+                items.map((item,index)=><HowItWorksItem key={index} number={item} index={index}/>)
             }
         </div>
     </>
