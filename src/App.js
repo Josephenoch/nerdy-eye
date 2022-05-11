@@ -4,6 +4,7 @@ import { Navbar } from "./Components/Layout/Navbar";
 import { JobSection } from "./Components/Job/JobSection";
 import { Industries } from "./Components/Industries/Industries";
 import { JoinPipeline } from "./Components/JoinPipeline/JoinPipeline";
+import { SuccessStories } from "./Components/SuccesSories/SuccessStories";
 
 function App() {
   return (
@@ -22,8 +23,11 @@ function App() {
       <div className="flex justify-between mt-16 items-center flex-col w-full bg-[#f8f8f8]">
         <Industries/>
       </div>
-      <div className="w-full mt-16 flex flex-col items-center h-full">
+      <div className="w-full mt-16 flex flex-col items-center">
         <JoinPipeline/>
+      </div>
+      <div className="w-full mt-16 flex items-center flex-col">
+        <SuccessStories/>
       </div>
     </div>
   );
