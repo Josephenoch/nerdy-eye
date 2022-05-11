@@ -18,7 +18,7 @@ function App() {
       <div className="flex items-center flex-col">
         <JobSection/>
       </div>
-      <div className="flex justify-between items-center flex-col w-full h-[90%] bg-[#f8f8f8]">
+      <div className="flex justify-between mt-16 items-center flex-col w-full h-[90%] bg-[#f8f8f8]">
         <Industries/>
       </div>
     </div>
