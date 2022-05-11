@@ -60,6 +60,7 @@ export const JobSection = () => {
         <div className='w-[80%] relative h-[600px] flex'>
             <AvailableJobs/>
         </div>
+        <img src={SignatureImage} alt="Signature" className="mt-48"/>
 
     </>
   )
