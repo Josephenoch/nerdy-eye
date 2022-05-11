@@ -10,9 +10,8 @@ import { NavLink } from './NavLink'
 export const Navbar = () => {
   const navlinks = ["services", "academy", "community", "workforce", "store", "affliate"]
   return (
-    <nav className=" bg-white w-full h-[10%] flex justify-between items-center relative z-10">
+    <nav className=" bg-white w-full h-[10%] flex justify-between items-center z-20 fixed top-0">
         <img src={Logo} alt="Nerdy-Eye Logo" className="w-[60px] ml-10"/>
-        <div className='absolute w-1 h-1 p-[270px] mx-auto left-0 right-[110px] rounded-full border-2 border-gray-900 z-0 top-[-100px]'></div>
         
         <div className=" space-x-5 flex z-20 relative">
             {
