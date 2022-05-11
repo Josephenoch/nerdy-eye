@@ -1,7 +1,6 @@
 import React from 'react'
 
 import LeftIcon from "../../Assets/Icons/left.svg"
-import SignatureImage from "../../Assets/Icons/signature-image.svg"
 import PhoneIcon from "../../Assets/Icons/phone-dark.svg"
 import ReactIcon from "../../Assets/Icons/react.svg"
 import GraphicsIcon from "../../Assets/Icons/graphics.svg"
@@ -13,6 +12,7 @@ import TagsIcon from "../../Assets/Icons/tags.svg"
 
 import { JobCard } from './JobCard'
 import { AvailableJobs } from './AvailableJobs'
+import { Signature } from '../GeneralComponents/Signature'
 
 export const JobSection = () => {
   const jobs = [
@@ -39,7 +39,7 @@ export const JobSection = () => {
   ]
   return (
     <>
-        <img src={SignatureImage} alt="Signature" className="mt-16"/>
+        <Signature/>
         <div className="flex flex-col items-center space-y-2 mt-20">
             <p className="font-bold text-2xl">WHO SHOULD JOIN THE NERDYEYE PIPELINE</p>
             <span className="text-xs font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente nulla neque aspernatur corrupti nobis.</span>
@@ -55,13 +55,12 @@ export const JobSection = () => {
                 <img src={LeftIcon} alt="left arrow" className="rotate-180"/>
             </div>
         </div>
-        <img src={SignatureImage} alt="Signature" className="mt-16"/>
+        <Signature/>
         <p className="font-bold text-2xl mt-20 mb-10">JOB OFFERS</p>
-        <div className='w-[80%] relative h-[600px] flex'>
+        <div className='w-[80%] relative h-[600px] flex mb-32'>
             <AvailableJobs/>
         </div>
-        <img src={SignatureImage} alt="Signature" className="mt-48"/>
-
+        <Signature/>
     </>
   )
 }

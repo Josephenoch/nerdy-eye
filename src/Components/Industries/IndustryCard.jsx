@@ -3,7 +3,7 @@ import React from 'react'
 export const IndustryCard = ({industry}) => {
   return (
     <>
-        <div className="group text-white flex flex-col justify-end px-6 w-[280px] h-[230px] hover:scale-105 bg-black/70 bg-cover rounded-2xl shadow-xl opacity-90 bg-blend-darken transition-all duration-500 ease-linear mt-10 cursor-pointer" 
+        <div className="group text-white flex flex-col justify-end px-6 w-[280px] h-[230px] hover:scale-105 bg-black/70 bg-cover rounded-2xl shadow-xl opacity-90 bg-blend-darken transition-all duration-500 ease-linear my-6 cursor-pointer" 
             style={{
                 backgroundImage: `url(${industry.picture})`
             }}
