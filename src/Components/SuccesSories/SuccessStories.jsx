@@ -34,12 +34,12 @@ export const SuccessStories = () => {
                 </div>
             </div>
         </div>
-        <div className="flex w-full justify-center mt-16 space-x-3">
+        <div className="flex w-full justify-center mt-16 space-x-2 items-center">
             <div className='w-4 h-4 rounded-full bg-[#c4c4c4]'>
             </div>
-            <div className='w-4 h-4 rounded-full border-2 border-[#c4c4c4]'>
+            <div className='w-5 h-5 rounded-full border-2 border-[#c4c4c4]'>
             </div>
-            <div className='w-4 h-4 rounded-full border-2 border-[#c4c4c4]'>
+            <div className='w-5 h-5 rounded-full border-2 border-[#c4c4c4]'>
             </div>
         </div>
         <Signature/>
