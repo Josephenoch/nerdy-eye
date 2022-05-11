@@ -1,9 +1,9 @@
 import React from 'react'
-import Logo from "../../Assets/Images/nerdy-line-logo.png"
 import Cart from "../../Assets/Icons/Icon-eather-shopping-cart.svg"
 import UserAvatar from "../../Assets/Icons/user-avatar.svg"
 import DropDown from "../../Assets/Icons/angle-down.svg"
 import { NavLink } from './NavLink'
+import { Logo } from '../GeneralComponents/Logo'
 
 
 
@@ -11,8 +11,7 @@ export const Navbar = () => {
   const navlinks = ["services", "academy", "community", "workforce", "store", "affliate"]
   return (
     <nav className=" bg-white w-full h-[10%] flex justify-between items-center z-20 fixed top-0">
-        <img src={Logo} alt="Nerdy-Eye Logo" className="w-[60px] ml-10"/>
-        
+        <Logo extraClass="ml-10"/>
         <div className=" space-x-5 flex z-20 relative">
             {
                 navlinks.map((link,index)=> <NavLink key={index} text={link}/>)

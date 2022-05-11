@@ -14,7 +14,8 @@ module.exports = {
      
       colors:{
         theme:"#D23432",
-        textTheme:"#3C3A3A"
+        textTheme:"#3C3A3A",
+        body:"#575757"
       },
       backgroundImage:{
         industries:"url('Assets/Images/logistics.png')"
