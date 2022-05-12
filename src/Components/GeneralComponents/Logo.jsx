@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LogoImage from "../../Assets/Images/nerdy-line-logo.png"
+import LogoImage from "../../Assets/Icons/logo.svg"
 
 export const Logo = ({extraClass}) => {
   return (

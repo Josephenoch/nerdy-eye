@@ -48,7 +48,7 @@ export const JobSection = () => {
             <div className="hidden lg:flex w-[115px] h-[115px] rounded-full items-center justify-center shadow-xl cursor-pointer">
                 <img src={LeftIcon} alt="left arrow"/>
             </div>
-            <div className="flex space-x-12 lg:space-x-8 overflow-x-auto lg:overflow-x-visible w-screen lg:w-fit pl-12 lg:pl-0">
+            <div className="flex space-x-8 overflow-x-auto lg:overflow-x-visible w-screen lg:w-fit px-8 lg:px-0">
                 {jobs.map(job=><JobCard key={job.title} noOfJobs={job.noOfJobs} title={job.title} icon={job.icon}/>) }
             </div>
             <div className="hidden lg:flex w-[115px] h-[115px] rounded-full items-center justify-center shadow-xl cursor-pointer">
@@ -57,10 +57,12 @@ export const JobSection = () => {
         </div>
         <Signature/>
         <p className="font-bold text-4xl lg:text-2xl mt-20 mb-10"><span className="text-theme lg:text-textTheme">JOB</span> OFFERS</p>
-        <div className='w-[80%] relative flex mb-32 h-fit lg:h-[600px]'>
+        <div className='w-[80%] relative flex lg:mb-32 h-fit lg:h-[600px]'>
             <AvailableJobs/>
         </div>
-        <Signature/>
+        <div className="hidden lg:block">
+            <Signature/>
+        </div>
     </>
   )
 }

@@ -76,7 +76,7 @@ export const AvailableJobs = () => {
   return (
     <>
         <div className="lg:hidden flex flex-col items-center w-full">
-            <div className="flex mb-5">
+            <div className="flex mb-10">
                 <div className="p-5">
                     <p className="text-5xl font-bold">500<span className="text-theme">+</span></p>
                     <span className="mt-2 inline-block font-semibold text-sm">Job Offers</span>
@@ -93,8 +93,8 @@ export const AvailableJobs = () => {
                      job={job}
                  />     
                 )}
-                <Button addedClass="mt-24" click={handleSeeMore} text="See More" secondary/>
-                <Button addedClass={`mt-24 ${seeMore>3 ? "block":"hidden"}`} text="See Less" click={handleSeeLess} secondary/>
+                <Button click={handleSeeMore} text="See More" secondary/>
+                <Button addedClass={` ${seeMore>3 ? "block":"hidden"}`} text="See Less" click={handleSeeLess} secondary/>
             </div>
         </div>
         <div className="w-1/2 rounded-l-xl hidden lg:flex space-x-20 h-4/5 bg-[#e4e6e8] p-16 pl-20 ">
