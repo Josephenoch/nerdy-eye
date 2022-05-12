@@ -16,7 +16,7 @@ import YoutubeIcon from "../../Assets/Icons/youtube.svg"
 export const Footer = () => {
   return (
     <>
-        <div className='w-full px-16 py-10 h-[95%] flex flex-col justify-between'>
+        <div className='w-full px-8 lg:px-16 py-10 h-[95%] flex flex-col justify-between'>
             <div>
                 <Logo/>
             </div>
@@ -79,8 +79,8 @@ export const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="h-[5%] w-full bg-theme text-white px-16">
-            <span className="text-xs">All Rights Reserved Nerdy Eye Powered By Dungada Tech Ltd.</span>
+        <div className="h-[5%] w-full bg-theme text-white px-0 lg:px-16">
+            <span className="text-xs text-center w-full inline-block lg:inline lg:text-left">All Rights Reserved Nerdy Eye Powered By Dungada Tech Ltd.</span>
         </div>
     </>
   )

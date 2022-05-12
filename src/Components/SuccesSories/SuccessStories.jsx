@@ -16,18 +16,18 @@ export const SuccessStories = () => {
                 </h1>
                 <p className="text-center text-xs mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, blanditiis eaque velit corrupti sed porro debitis incidunt esse voluptatum? Ea aut pariatur quidem ab quam iste rem impedit facere iusto.</p>
             </div>
-            <div className=" py-10 w-[100vw] lg:px-0 px-7 space-x-5 lg:space-x-0 lg:w-full flex justify-start lg:justify-between mt-40  overflow-x-scroll lg:overflow-x-visible">
-                <div className="min-w-[300px] lg:w-[29%] h-80 shadow-lg bg-[#f5f5f5] flex flex-col items-center p-7 justify-evenly">
+            <div className="w-[100vw] lg:px-0 px-5 pb-5 lg:pb-0 space-x-5 lg:space-x-0 lg:w-full flex justify-start lg:justify-between mt-20  overflow-x-scroll lg:overflow-x-visible">
+                <div className="min-w-[250px] lg:w-[29%] h-80 shadow-lg bg-[#f5f5f5] flex flex-col items-center p-7 justify-evenly">
                     <img src={DaveMarkPicture} alt="John Doe" className="w-24"/>
                     <p className="text-lg font-bold text-theme">Dave Mark</p>
                     <span className="text-xs text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil voluptatem quas voluptatibus? Amet quas cumque fuga distinctio doloremque minus numquam, odit repellat ipsum eos, quasi beatae, adipisci perferendis libero?</span>
                 </div>
-                <div className="min-w-[300px] lg:w-[29%] h-80 shadow-lg lg:shadow-2xl bg-[#f5f5f5] lg:bg-inherit lg:shadow-slate-600 lg:scale-125 flex flex-col items-center p-7 justify-evenly">
+                <div className="min-w-[250px] lg:w-[29%] h-80 shadow-lg lg:shadow-2xl bg-[#f5f5f5] lg:bg-inherit lg:shadow-slate-600 lg:scale-125 flex flex-col items-center p-7 justify-evenly">
                     <img src={JohnDoePicture} alt="John Doe" className="w-24"/>
                     <p className="text-lg font-bold text-theme">John Doe</p>
                     <span className="text-xs text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil voluptatem quas voluptatibus? Amet quas cumque fuga distinctio doloremque minus numquam, odit repellat ipsum eos, quasi beatae, adipisci perferendis libero?</span>
                 </div>
-                <div className="min-w-[300px] lg:w-[29%] h-80 shadow-lg bg-[#f5f5f5] flex flex-col items-center p-7 justify-evenly">
+                <div className="min-w-[250px] lg:w-[29%] h-80 shadow-lg bg-[#f5f5f5] flex flex-col items-center p-7 justify-evenly">
                     <img src={HelenWillsPicture} alt="John Doe" className="w-24"/>
                     <p className="text-lg font-bold text-theme">Helen Wills</p>
                     <span className="text-xs text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil voluptatem quas voluptatibus? Amet quas cumque fuga distinctio doloremque minus numquam, odit repellat ipsum eos, quasi beatae, adipisci perferendis libero?</span>

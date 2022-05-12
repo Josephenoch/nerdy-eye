@@ -11,9 +11,9 @@ export const JoinPipeline = () => {
       <div className="lg:hidden mb-16 -mt-16">
           <Signature/>
       </div>
-        <div className="w-[90%] lg:w-4/5 flex h-full">
+        <div className="w-[100%] lg:w-4/5 flex h-full justify-center lg:justify-start ">
             <img src={JoinPipelineImage} alt="Join Pipeline" className="w-1/2 h-full rounded-l-xl hidden lg:block" />
-            <div className="w-full lg:w-1/2 h-full p-5  lg:p-16 pt-5 bg-[#f5f5f5] rounded-xl lg:rounded-l-none flex flex-col justify-between">
+            <div className="w-[90%] lg:w-1/2 h-full lg:p-16 pt-5 bg-[#f5f5f5] rounded-xl lg:rounded-l-none flex flex-col items-center lg:items-start justify-between pb-10 lg:pb-16">
                 <p className="text-3xl font-bold mt-8 lg:mt-16 text-center lg:text-left ">Why You Should Join the <br/><span className="text-theme">Nerdeye Talent Pipeline</span> </p>
                 <div className="w-full lg:block flex flex-col items-center lg:space-y-10 mt-10 lg:mt-0 ">
                     {

@@ -34,7 +34,7 @@ function App() {
       <div className="w-full h-[90%] flex mt-16 lg:mt-0">
         <ContactUs/>
       </div>
-      <div className="w-full min-h-[80%] mt-64 lg:mt-16 flex flex-col bg-[#f5f5f5]">
+      <div className="w-full min-h-[80%] lg:min-h-fit mt-64 lg:mt-16 flex flex-col bg-[#f5f5f5]">
         <Footer/>
       </div>
     </div>
