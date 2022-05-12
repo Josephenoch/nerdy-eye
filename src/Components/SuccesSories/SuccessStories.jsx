@@ -16,7 +16,7 @@ export const SuccessStories = () => {
                 </h1>
                 <p className="text-center text-xs mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, blanditiis eaque velit corrupti sed porro debitis incidunt esse voluptatum? Ea aut pariatur quidem ab quam iste rem impedit facere iusto.</p>
             </div>
-            <div className=" py-10 w-[100vw] lg:px-0 px-10 space-x-10 lg:space-x-0 lg:w-full flex justify-start lg:justify-between mt-40  overflow-x-scroll lg:overflow-x-visible">
+            <div className=" py-10 w-[100vw] lg:px-0 px-7 space-x-5 lg:space-x-0 lg:w-full flex justify-start lg:justify-between mt-40  overflow-x-scroll lg:overflow-x-visible">
                 <div className="min-w-[300px] lg:w-[29%] h-80 shadow-lg bg-[#f5f5f5] flex flex-col items-center p-7 justify-evenly">
                     <img src={DaveMarkPicture} alt="John Doe" className="w-24"/>
                     <p className="text-lg font-bold text-theme">Dave Mark</p>
