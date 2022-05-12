@@ -28,7 +28,7 @@ function App() {
       <div className="w-full mt-16 flex flex-col h-full items-center">
         <JoinPipeline/>
       </div>
-      <div className="w-full mt-48 flex items-center flex-col">
+      <div className="w-full mt-24 lg:mt-48 flex items-center flex-col overflow-x-none">
         <SuccessStories/>
       </div>
       <div className="w-full h-[90%] flex">

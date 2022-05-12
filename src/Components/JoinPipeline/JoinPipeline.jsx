@@ -15,14 +15,14 @@ export const JoinPipeline = () => {
             <img src={JoinPipelineImage} alt="Join Pipeline" className="w-1/2 h-full rounded-l-xl hidden lg:block" />
             <div className="w-full lg:w-1/2 h-full p-5  lg:p-16 pt-5 bg-[#f5f5f5] rounded-xl lg:rounded-l-none flex flex-col justify-between">
                 <p className="text-3xl font-bold mt-8 lg:mt-16 text-center lg:text-left ">Why You Should Join the <br/><span className="text-theme">Nerdeye Talent Pipeline</span> </p>
-                <div className="w-full lg:block flex flex-col items-center lg:space-y-10 mt-10 lg:mt-0">
+                <div className="w-full lg:block flex flex-col items-center lg:space-y-10 mt-10 lg:mt-0 ">
                     {
                         benefits.map(benefit=>
-                            <div key={benefit} className=" w-3/4 lg:w-full h-12 lg:bg-[#e8e8e8] rounded-2xl flex p-7 space-x-5 items-center">
-                                <div className="h-8 w-8 bg-[#c4c4c4] rounded-full flex justify-center align center">
+                            <div key={benefit} className=" w-fit lg:w-full h-12 lg:bg-[#e8e8e8] rounded-2xl flex p-7 space-x-7 lg:space-x-5 items-center">
+                                <div className="h-8 w-8 bg-[#c4c4c4] rounded-full flex justify-center items-center">
                                     <img src={TickIcon} alt="Good" className="w-3"/>
                                 </div>
-                                <p className="text-sm font-bold">Long-Term Placements</p>
+                                <p className="text-sm font-semibold lg:font-bold">Long-Term Placements</p>
 
                             </div>
                         )
