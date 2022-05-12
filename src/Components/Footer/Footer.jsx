@@ -20,8 +20,8 @@ export const Footer = () => {
             <div>
                 <Logo/>
             </div>
-            <div className="h-[35%] w-full flex justify-between mb-10">
-                <div className="space-y-4 w-1/3">
+            <div className="h-[35%] w-full flex flex-col lg:flex-row lg:justify-between mb-10 space-y-10 lg:space-y-0">
+                <div className="space-y-4 mt-10 lg:mt-0 lg:w-1/3 w-full">
                     <p className="font-bold">Contact</p>
                     <span className="text-xs font-semibold text-body inline-block">We build and teach tech and digital solutions</span>
                     <div className="text-xs font-bold text-body flex items-center">
@@ -37,14 +37,14 @@ export const Footer = () => {
                         <span>+234 812 724 4042</span>
                     </div>
                 </div>
-                <div className="w-1/5 space-y-4">
+                <div className="lg:w-1/5 space-y-4 w-full">
                     <p className="font-bold">Services</p>
                     <p className="text-xs font-semibold text-body">Website Design/Development</p>
                     <p className="text-xs font-semibold text-body">Mobile App Development</p>
                     <p className="text-xs font-semibold text-body">Digital Marketing Campaign and Management</p>
 
                 </div>
-                <div className="w-1/5 space-y-4">
+                <div className="lg:w-1/5 space-y-4 w-full">
                     <p className="font-bold">Courses</p>
                     <p className="text-xs font-semibold text-body">Digital Marketing Training</p>
                     <p className="text-xs font-semibold text-body">Graphics Design Trainingt</p>
@@ -53,22 +53,22 @@ export const Footer = () => {
                     <p className="text-xs font-semibold text-body">Full-stack Web And Mobile Development</p>
                 </div>
             </div>
-            <div className="h-[35%] w-full flex justify-between">
-                <div className="w-1/3 space-y-4">
+            <div className="h-[35%] w-full flex flex-col lg:flex-row lg:justify-between space-y-10 lg:space-y-0">
+                <div className=" space-y-4 lg:w-1/3 w-full">
                     <p className="font-bold">Company</p>
                     <p className="text-xs font-semibold text-body">About</p>
                     <p className="text-xs font-semibold text-body">Work Force</p>
                     <p className="text-xs font-semibold text-body">Contact</p>
                     <p className="text-xs font-semibold text-body">Blog</p>
                 </div>
-                <div className="w-1/5 space-y-4">
+                <div className=" space-y-4 lg:w-1/5 w-full">
                     <p className="font-bold">Other Links</p>
                     <p className="text-xs font-semibold text-body">Careers</p>
                     <p className="text-xs font-semibold text-body">Site Map</p>
                     <p className="text-xs font-semibold text-body">Privacy</p>
                     <p className="text-xs font-semibold text-body">Terms</p>
                 </div>
-                <div className="w-1/5 space-y-4">
+                <div className=" space-y-4 lg:w-1/5 w-full">
                     <p className="font-bold">Social Media</p>
                     <div className="space-x-4">
                         <img src={InstagramIcon} alt="Instagram" className="inline-block"/>
