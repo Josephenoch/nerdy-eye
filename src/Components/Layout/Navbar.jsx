@@ -12,7 +12,7 @@ import { Logo } from '../GeneralComponents/Logo'
 export const Navbar = () => {
   const navlinks = ["services", "academy", "community", "workforce", "store", "affliate"]
   return (
-    <nav className=" bg-white w-full h-[7%] lg:h-[13%] flex shadow-xl lg:shadow-none justify-between items-center z-20 fixed top-0">
+    <nav className=" bg-white w-full h-16 lg:h-[13%] flex shadow-xl lg:shadow-none justify-between items-center z-20 fixed top-0">
         <Logo extraClass="ml-10"/>
         <div className=" space-x-5 z-20 relative hidden lg:flex">
             {

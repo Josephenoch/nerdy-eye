@@ -10,7 +10,7 @@ import { Footer } from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="w-[screen] text-black lg:text-textTheme font-montserrat h-screen">
+    <div className="w-[screen] text-black lg:text-textTheme font-montserrat h-screen overflow-x-hidden">
       {/* <div className='absolute w-1 h-1 p-[270px] mx-auto left-0 right-[110px] rounded-full border-2 border-gray-900 z-20 top-[-100px]'></div> */}
       <Navbar/>
       <div className="w-full z-10 relative lg:h-[100%] mb-10 lg:mb-0">
