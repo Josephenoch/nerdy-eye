@@ -27,9 +27,9 @@ export const Navbar = () => {
         </div>
         <div className='flex items-center'>
             <img src={Cart} alt="Cart" className="mr-6 w-[20px] dark:hidden"/>
-            <img src={DarkCart} alt="Cart" className="mr-6 w-[20px] hidden dark:block"/>
+            <img src={DarkCart} alt="Cart" className="mr-4 w-[20px] hidden dark:block"/>
             <img src={MenuIcon} alt="Menu" className="lg:hidden mr-10 dark:hidden"/>
-            <img src={DarkMenuIcon} alt="Menu" className="mr-10 dark:lg:hidden dark:block"/>
+            <img src={DarkMenuIcon} alt="Menu" className="mr-10 dark:lg:hidden lg:hidden dark:block"/>
             <div className="items-center space-x-3 mr-10 hidden lg:flex">
                 <img src={UserAvatarIcon} alt="User Avatar" className="w-[15px] dark:hidden"/>
                 <img src={DarkUserAvatarIcon} alt="User Avatar" className="w-[15px] hidden dark:block"/>
