@@ -1,8 +1,98 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://nerdy-eye-gamma.vercel.app/">
+    <img src="src/Assets/Icons/logo.svg" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">Nerdy Eye</h3>
+
+  <p align="center">
+    Nerdy Line - A platform for companies to Hire experts.
+    <br />
+    <a href="#"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://nerdy-eye-gamma.vercel.app/">View Project</a>
+    •
+    <a href="#">Report Bug</a>
+    •
+    <a href=" https://github.com/Josephenoch/nerdy-eye/issues">Request Feature</a>
+  </p>
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#licenses">Licenses and Copyright</a></li>
+
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+<a href="https://github.com/Josephenoch/nerdy-eye">
+    <img src="src/Assets/Readme-Images/lightmode.PNG" alt="Light Mode">
+    <img src="src/Assets/Readme-Images/darkmode.PNG" alt="Dark Mode">
+  </a>
+Nerdy Line - A platform for companies to Hire experts.
+
+
+**Version 1.0.0**
+
+[Visit my Personal Portfolio](https://josephenoch.github.io/reactportfolio)
+
+---
+
+### Built With
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [React](https://reactjs.org)
+* [TailwindCSS](https://tailwindcss.com/)
+  
+
+
+
+
+## Installation
+You'll need to either fork or clone the repositry.<br>
+Next, you run the command `npm install` to install all the project dependencies.<br>
+
 
 In the project directory, you can run:
 
@@ -68,3 +158,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributors
+
+[Joseph Enoch](https://github.com/josephenoch)
+
+
+<!-- CONTACT -->
+## Contact
+
+Twitter - [@EnochJoseph01](https://twitter.com/enochjoseph01)<br>
+LinkedIn - [Joseph Enoch](https://www.linkedin.com/in/joseph-enoch/)
+
+Project Link: [Nerdy-Eye](https://nerdy-eye-gamma.vercel.app/)
+
+## Licenses and Copyright
+
+&copy; Joseph Enoch 2021 - 2022
+
