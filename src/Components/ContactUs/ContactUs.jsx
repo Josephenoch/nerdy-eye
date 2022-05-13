@@ -14,7 +14,7 @@ export const ContactUs = () => {
                 <img src={ContactUsPicture} alt="Contact Us" className='w-[360px]'/>
             </div>
         </div>
-        <form className="w-[85%] lg:w-1/2 h-full mx-auto lg:p-24 " onSubmit={(e)=>handleSubmit(e)}>
+        <form className="w-[85%] lg:w-1/2 h-full mx-auto lg:p-24 lg:pb-32 " onSubmit={(e)=>handleSubmit(e)}>
             <p className="text-2xl font-bold uppercase mb-4 text-center">Join the NerdyEye <br className="lg:hidden"/> <span className="text-theme">Network</span></p>
             <p className="text-xs font-semibold mb-10 text-center lg:text-left"> Thank you for showing interest in the Nerdy Eye's Recruitment Program. Please fill the form below and we will connect you with your ideal employers as soon as possible.</p>
             <div className="lg:pr-20 space-y-8">
